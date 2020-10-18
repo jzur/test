@@ -18,9 +18,7 @@ To use timethod in Matlab, you will need to add the `timethod` directory to the 
 
 To compute all zeros of the harmonic mapping
 
-```latex
-$f(z) = z^2 + \overline{\left(\frac{2z + 1}{z^2 + z}\right)} + 2\log|z|$,
-```
+<a href="https://www.codecogs.com/eqnedit.php?latex=$f(z)&space;=&space;z^2&space;&plus;&space;\overline{\left(\frac{2z&space;&plus;&space;1}{z^2&space;&plus;&space;z}\right)}&space;&plus;&space;2\log|z|$," target="_blank"><img src="https://latex.codecogs.com/gif.latex?$f(z)&space;=&space;z^2&space;&plus;&space;\overline{\left(\frac{2z&space;&plus;&space;1}{z^2&space;&plus;&space;z}\right)}&space;&plus;&space;2\log|z|$," title="$f(z) = z^2 + \overline{\left(\frac{2z + 1}{z^2 + z}\right)} + 2\log|z|$," /></a>
 we type:
 
 ```matlab
