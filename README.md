@@ -1,4 +1,4 @@
-# test
+# TIMETHOD
 
 **timethod** is a Matlab package for computing all zeros of harmonic mapping by continuation.
 
@@ -18,7 +18,7 @@ To use timethod in Matlab, you will need to add the `timethod` directory to the 
 
 To compute all zeros of the harmonic mapping
 
-![formula](https://render.githubusercontent.com/render/math?math=f(z)=z^2)
+![formula](https://render.githubusercontent.com/render/math?math=f(z)=z^2+\overline{\frac{2z+1}{z^2+z}}+2\log|z|)
 
 we type:
 
