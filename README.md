@@ -1,16 +1,16 @@
 # TIMETHOD
 
-**timethod** is a Matlab package for computing all zeros of harmonic mapping by continuation.
+**timethod** is a Matlab package for computing all zeros of harmonic mappings by continuation.
 
 ---
 
 ## Installation
 
-To clone the timethod repository, first navigate in a terminal to where you want the repository cloned, then type
+To clone the **timethod** repository, first navigate in a terminal to where you want the repository cloned, then type
 ```
 git clone TODO
 ```
-To use timethod in Matlab, you will need to add the `timethod` directory to the Matlab path.
+To use timethod in Matlab, you will need to add the **timethod** directory to the Matlab path.
 
 ---
 
@@ -18,9 +18,9 @@ To use timethod in Matlab, you will need to add the `timethod` directory to the 
 
 To compute all zeros of the harmonic mapping
 
-![formula](https://render.githubusercontent.com/render/math?math=f(z)=z^2+\overline{\frac{2z+1}{z^2+z}}+2\log|z|)
+![formula](https://render.githubusercontent.com/render/math?math=f(z)=z^2%2B\overline{\left(\frac{2z%2B1}{z^2%2Bz}\right)}%2B2\log|z|,)
 
-we type:
+type:
 
 ```matlab
 fun = harmonicRat([1 0 0], [1], [2 1], [1 1 0], [1], [0]);
@@ -44,7 +44,7 @@ For more examples we refer to the experiments in ex_*.m.
 
 ## Citing timethod
 
-If you find timethod useful in your work, we kindly request that you cite the [following preprint](https://arxiv.org/abs/xxyyzz):
+If you find **timethod** useful in your work, we kindly request that you cite the [following preprint](https://arxiv.org/abs/xxyyzz):
 
 ```latex
 @article{SeteZur2020,
