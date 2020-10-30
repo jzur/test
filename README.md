@@ -1,16 +1,16 @@
-# TIMETHOD
+# Transport of Images
 
-**timethod** is a Matlab package for computing all zeros of harmonic mappings by continuation.
+The **Transport of images Toolbox** is a Matlab package for computing all zeros of harmonic mappings by continuation.
 
 ---
 
 ## Installation
 
-To clone the **timethod** repository, first navigate in a terminal to where you want the repository cloned, then type
+To clone the **Transport_of_images_Toolbox** repository, first navigate in a terminal to where you want the repository cloned, then type
 ```
-git clone TODO
+git clone https://github.com/transportofimages/Transport_of_images_Toolbox.git
 ```
-To use timethod in Matlab, you will need to add the **timethod** directory to the Matlab path.
+To use timethod in Matlab, you will need to add the **Transport_of_images_Toolbox** directory to the Matlab path.
 
 ---
 
@@ -23,7 +23,7 @@ To compute all zeros of the harmonic mapping
 type:
 
 ```matlab
-fun = harmonicRat([1 0 0], [1], [2 1], [1 1 0], [1], [0]);
+fun = harmonicRat([1 0 0], [1], [2 1], [1 1 0], [2], [0]);
 zer = tiroots_rand(fun)
 res = max(abs(fun.f(zer)))
 ```
@@ -42,9 +42,9 @@ res =
 For more examples we refer to the experiments in ex_*.m.
 
 
-## Citing timethod
+## Citing Transport of Images
 
-If you find **timethod** useful in your work, we kindly request that you cite the [following preprint](https://arxiv.org/abs/xxyyzz):
+If you find the **Transport_of_images_Toolbox** useful in your work, we kindly request that you cite the [following preprint](https://arxiv.org/abs/xxyyzz):
 
 ```latex
 @article{SeteZur2020,
