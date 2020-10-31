@@ -6,11 +6,11 @@ The **Transport of images Toolbox** is a Matlab package for computing all zeros 
 
 ## Installation
 
-To clone the **Transport_of_images_Toolbox** repository, first navigate in a terminal to where you want the repository cloned, then type
+To clone the **Transport of images Toolbox** repository, first navigate in a terminal to where you want the repository cloned, then type
 ```
 git clone https://github.com/transportofimages/Transport_of_images_Toolbox.git
 ```
-To use timethod in Matlab, you will need to add the **Transport_of_images_Toolbox** directory to the Matlab path.
+To use our Toolbox in Matlab, you will need to add the **Transport_of_images_Toolbox** directory to the Matlab path.
 
 ---
 
@@ -39,12 +39,12 @@ res =
    8.8818e-16
 ```
 
-For more examples we refer to the experiments in ex_*.m.
+For more examples we refer to the m-files ex_*.m.
 
 
 ## Citing Transport of Images
 
-If you find the **Transport_of_images_Toolbox** useful in your work, we kindly request that you cite the [following preprint](https://arxiv.org/abs/xxyyzz):
+If you find the **Transport of images Toolbox** useful in your work, we kindly request that you cite the [following preprint](https://arxiv.org/abs/xxyyzz):
 
 ```latex
 @article{SeteZur2020,
