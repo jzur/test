@@ -24,7 +24,7 @@ type:
 
 ```matlab
 fun = harmonicRat([1 0 0], [1], [2 1], [1 1 0], [2], [0]);
-zer = tiroots_rand(fun)
+zer = tiroots(fun)
 res = max(abs(fun.f(zer)))
 ```
 Output:
